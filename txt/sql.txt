@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS profile (
+  id INT AUTO_INCREMENT,
+   name VARCHAR(55) NOT NULL,
+   birthdate DATE,
+    
+    mobilenum INT NOT NULL,
+gender VARCHAR(8) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    village VARCHAR(255),
+ city VARCHAR(15),
+ po VARCHAR(15) NOT NULL,
+eduqual VARCHAR(255) NOT NULL,
+sclnam VARCHAR(255)NOT NULL,
+colnam VARCHAR(255) NOT NULL,
+univernam VARCHAR(255) NOT NULL,
+pass VARCHAR(55) NOT NULL
+PRIMARY KEY (id)
+)  ENGINE=INNODB;
